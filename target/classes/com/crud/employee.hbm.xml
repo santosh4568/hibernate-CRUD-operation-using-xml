@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.crud.employee" table="employee">
+		<id name="id" column="Employee_id">
+		</id>
+		<property name="name" column="Employee_name"></property>
+		<property name="age" column="Employee_Age"></property>
+		<property name="gender" column="Employee_Gender"></property>
+	</class>
+</hibernate-mapping>
